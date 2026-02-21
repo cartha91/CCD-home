@@ -3,63 +3,159 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfolio | CrowsCoupe Designs</title>
+  <title>Portfolio | CrowsCoupe Designs - Digital Creative Rebellion</title>
+
   <link rel="stylesheet" href="css/styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet" />
+
+  <!-- Typography: Space Grotesk (headlines) + Inter (body/UI) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+
+<body class="theme-rebellion">
 
   <!-- Header -->
-  <header>
-    <div class="logo">
-      <img src="assets/images/CcdLogo.png" alt="CrowsCoupe Logo" />
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html" aria-label="CrowsCoupe Designs Home">
+        <img src="assets/images/CcdLogo.png" alt="CrowsCoupe Designs Logo" />
+      </a>
+
+      <nav class="site-nav" aria-label="Primary Navigation">
+        <ul>
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="services.html">Services</a></li>
+          <li><a class="nav-link is-active" href="portfolio.html">Portfolio</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
   </header>
 
-  <!-- Hero -->
-  <section class="hero portfolio-hero">
-    <h1>Our Work</h1>
-    <p>Every design tells a story-this is CrowsCoupe's.</p>
-  </section>
+  <main>
 
-  <!-- Portfolio Grid -->
-  <section class="portfolio-section">
-    <div class="portfolio-gallery">
-      <div class="portfolio-item">
-        <img src="./assets/images/WebDesign.png" alt="Web Project" />
-        <h3>Modern Web Redesign</h3>
-        <p>Gaming, Blogs, Business, Advertising; We do it all, if your looking to put together a beautiful, responsive, modern site of any flavor just leave it to us.</p>
+    <!-- Hero -->
+    <section class="hero portfolio-hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Digital Creative Rebellion</p>
+        <h1 class="hero-title">THE WORK</h1>
+        <p class="hero-subtitle">
+          Every project is built to stand apart - not blend into the scroll.
+          Here’s a look at what we craft when precision meets bold identity.
+        </p>
+
+        <div class="hero-cta">
+          <a href="contact.html" class="btn btn-primary">Start a Project</a>
+          <a href="services.html" class="btn btn-secondary">Explore Services</a>
+        </div>
       </div>
-      <div class="portfolio-item">
-        <img src="assets\images\BrandIdPackage.png" alt="Branding" />
-        <h3>Software engineering & App/Game Design</h3>
-        <p>Certified Software engineering and Development skills including app and game design</p>
+    </section>
+
+    <!-- Capabilities Strip -->
+    <section class="section">
+      <div class="section-inner">
+        <h2 class="section-title">What You’ll See Here</h2>
+        <p class="section-subtitle">
+          Brand systems. Web builds. UI. Merch. Projects engineered to rise.
+        </p>
+
+        <div class="hero-proof" style="margin-top:1.25rem;">
+          <div class="proof-item">
+            <span class="proof-label">Brand</span>
+            <span class="proof-value">Identity Systems</span>
+          </div>
+          <div class="proof-item">
+            <span class="proof-label">Web</span>
+            <span class="proof-value">Modern + Responsive</span>
+          </div>
+          <div class="proof-item">
+            <span class="proof-label">Design</span>
+            <span class="proof-value">Print + Merch</span>
+          </div>
+        </div>
       </div>
-      <div class="portfolio-item">
-        <img src="assets\images\MerchPic.png" alt="Apparel Design" />
-        <h3>Merch Design</h3>
-        <p>CCD can handle any of your merchandising dreams. Cups, Apparel, Signs, even coloring books! Nothing is out of reach for CCD</p>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="section portfolio-section">
+      <div class="section-inner">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">
+          Click into projects where available - more case studies are being added as the rebellion grows.
+        </p>
+
+        <div class="portfolio-grid">
+          <!-- Project 1 -->
+          <a class="thumb" href="#" aria-label="Modern Web Redesign case study (coming soon)">
+            <img src="assets/images/WebDesign.png" alt="Modern Web Redesign Preview" />
+            <div class="thumb-overlay">
+              <span class="thumb-title">Modern Web Redesign</span>
+              <span class="thumb-tag">Web • UI • Responsive Build</span>
+            </div>
+          </a>
+
+          <!-- Project 2 -->
+          <a class="thumb" href="#" aria-label="Software engineering and app/game design (coming soon)">
+            <img src="assets/images/BrandIdPackage.png" alt="Software Engineering & App/Game Design Preview" />
+            <div class="thumb-overlay">
+              <span class="thumb-title">Software Engineering & App/Game Design</span>
+              <span class="thumb-tag">Development • UI • Systems</span>
+            </div>
+          </a>
+
+          <!-- Project 3 -->
+          <a class="thumb" href="#" aria-label="Merch Design case study (coming soon)">
+            <img src="assets/images/MerchPic.png" alt="Merch Design Preview" />
+            <div class="thumb-overlay">
+              <span class="thumb-title">Merch Design</span>
+              <span class="thumb-tag">Apparel • Print • Production-Ready</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="portfolio-cta">
+          <a href="contact.html" class="btn btn-primary">Commission a Project</a>
+        </div>
       </div>
-      <!-- Add more items as needed -->
-    </div>
-  </section>
+    </section>
+
+    <!-- Creed (short) -->
+    <section class="section creed">
+      <div class="section-inner">
+        <h2 class="section-title">Built Different</h2>
+        <div class="creed-block">
+          <p><strong>We reject the copy-paste web.</strong></p>
+          <p>Precision over templates. Identity over trends. Impact over noise.</p>
+          <p>In a world of repetition - <strong>distinction wins.</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section contact-cta">
+      <div class="section-inner contact-cta-inner">
+        <div>
+          <h2 class="section-title">Want Your Brand Featured Here Next?</h2>
+          <p class="section-subtitle">Let’s build something engineered to rise above the noise.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+      </div>
+    </section>
+
+  </main>
 
   <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 CrowsCoupe Designs</p>
-    <div class="socials">
-      <a href="#">Twitter</a>
-      <a href="#">Instagram</a>
-      <a href="#">Facebook</a>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 CrowsCoupe Designs</p>
+
+      <div class="socials">
+        <a href="#" aria-label="Twitter">Twitter</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+      </div>
     </div>
   </footer>
 

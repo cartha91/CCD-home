@@ -3,65 +3,190 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Services | CrowsCoupe Designs</title>
+  <title>Services | CrowsCoupe Designs — Digital Creative Rebellion</title>
+
   <link rel="stylesheet" href="css/styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet" />
+
+  <!-- Typography: Space Grotesk (headlines) + Inter (body/UI) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+
+<body class="theme-rebellion">
 
   <!-- Header -->
-  <header>
-    <div class="logo">
-      <img src="assets\images\CcdLogo.png" alt="CrowsCoupe Logo" />
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html" aria-label="CrowsCoupe Designs Home">
+        <img src="assets/images/CcdLogo.png" alt="CrowsCoupe Designs Logo" />
+      </a>
+
+      <nav class="site-nav" aria-label="Primary Navigation">
+        <ul>
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link is-active" href="services.html">Services</a></li>
+          <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
   </header>
 
-  <!-- Hero -->
-  <section class="hero services-hero">
-    <h1>Our Services</h1>
-    <p>Visual storytelling that connects. Design that delivers.</p>
-  </section>
+  <main>
 
-  <!-- Service Cards -->
-  <section class="services-section">
-    <div class="services-grid">
-      <div class="service-card">
-        <h3>Brand Identity</h3>
-        <p>From logos to color palettes, we craft memorable brands that stand out across every platform.</p>
-      </div>
-      <div class="service-card">
-        <h3>Web & UI Design</h3>
-        <p>Modern, responsive websites and user interfaces that look amazing and perform flawlessly.</p>
-      </div>
-      <div class="service-card">
-        <h3>Print & Apparel</h3>
-        <p>T-shirts, business cards, stickers and more. Beautiful designs you can hold, wear, and share.</p>
-      </div>
-    </div>
-  </section>
+    <!-- Hero -->
+    <section class="hero services-hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Digital Creative Rebellion</p>
+        <h1 class="hero-title">SERVICES</h1>
+        <p class="hero-subtitle">
+          We don’t sell generic “design.” We build precision-crafted brand systems -
+          engineered to stand apart, perform clean, and command attention.
+        </p>
 
-  <!-- CTA -->
-  <section class="contact-cta">
-    <h2>Need Custom Work?</h2>
-    <a href="contact.html" class="cta-button">Let’s Work Together</a>
-  </section>
+        <div class="hero-cta">
+          <a href="contact.html" class="btn btn-primary">Start a Project</a>
+          <a href="portfolio.html" class="btn btn-secondary">View Work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Services -->
+    <section class="section services-section">
+      <div class="section-inner">
+        <h2 class="section-title">What We Build</h2>
+        <p class="section-subtitle">
+          Choose a core service - or combine them into a full brand system.
+        </p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <h3>Brand Identity Systems</h3>
+            <p>
+              Logo systems, typography + color direction, and a cohesive identity built to scale across
+              platforms. Not a one-off logo - a brand you can grow.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h3>Web & UI (Modern + Responsive)</h3>
+            <p>
+              High-impact websites and UI design that look bold and perform clean. Built for creators,
+              digital products, and companies who refuse template culture.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h3>Print & Apparel</h3>
+            <p>
+              Merch graphics, print layouts, and production-ready designs for shirts, stickers, cards,
+              posters, and everything physical that carries your identity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deliverables -->
+    <section class="section">
+      <div class="section-inner">
+        <h2 class="section-title">What You Get</h2>
+        <p class="section-subtitle">
+          Clear deliverables. No confusion. Built to be usable immediately.
+        </p>
+
+        <ul class="services-list">
+          <li><strong>Brand Kit</strong><span>- colors, type, usage rules, and visual direction</span></li>
+          <li><strong>Logo Assets</strong><span>- optimized exports for web + print (when applicable)</span></li>
+          <li><strong>Web Files</strong><span>- responsive site builds or UI layouts based on your project</span></li>
+          <li><strong>Social + Creator Assets</strong><span>- headers, thumbnails, post templates (optional)</span></li>
+          <li><strong>Print-Ready Output</strong><span>- properly sized files for apparel and print runs</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section process">
+      <div class="section-inner">
+        <h2 class="section-title">Our Process</h2>
+        <p class="section-subtitle">
+          Rebellion with precision - a clear path from idea to identity.
+        </p>
+
+        <div class="process-grid">
+          <div class="process-step">
+            <span class="step-number">01</span>
+            <h3>Strategy & Story</h3>
+            <p>We define what your brand stands for, who it’s for, and how it should feel.</p>
+          </div>
+
+          <div class="process-step">
+            <span class="step-number">02</span>
+            <h3>Visual System</h3>
+            <p>We build your identity: typography, color, layout language, and core assets.</p>
+          </div>
+
+          <div class="process-step">
+            <span class="step-number">03</span>
+            <h3>Build & Launch</h3>
+            <p>We deliver polished files and/or a clean build - ready to deploy, post, or print.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Add-ons -->
+    <section class="section">
+      <div class="section-inner">
+        <h2 class="section-title">Add-Ons (Optional, But Powerful)</h2>
+        <p class="section-subtitle">
+          For creators and brands that want the full “main character” rollout.
+        </p>
+
+        <div class="pillars-grid">
+          <article class="pillar-card">
+            <h3>Creator Asset Pack</h3>
+            <p>Social templates, banners, thumbnails, and visuals built for consistency.</p>
+          </article>
+
+          <article class="pillar-card">
+            <h3>Landing Page + Conversion Pass</h3>
+            <p>Sharper layout + copy tweaks engineered to turn attention into action.</p>
+          </article>
+
+          <article class="pillar-card">
+            <h3>Design System Mini Kit</h3>
+            <p>Reusable UI components and style rules for scaling future pages fast.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section contact-cta">
+      <div class="section-inner contact-cta-inner">
+        <div>
+          <h2 class="section-title">Ready to Break the Template Cycle?</h2>
+          <p class="section-subtitle">Let’s build something engineered to rise above the noise.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Let’s Work Together</a>
+      </div>
+    </section>
+
+  </main>
 
   <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 CrowsCoupe Designs</p>
-    <div class="socials">
-      <a href="#">Twitter</a>
-      <a href="#">Instagram</a>
-      <a href="https://www.facebook.com/profile.php?id=61575315816905">Facebook</a>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 CrowsCoupe Designs</p>
+
+      <div class="socials">
+        <a href="#" aria-label="Twitter">Twitter</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61575315816905" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+      </div>
     </div>
   </footer>
 
