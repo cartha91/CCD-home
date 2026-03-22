@@ -3,89 +3,82 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About | CrowsCoupe Designs — Digital Creative Rebellion</title>
+  <title>About | CrowsCoupe Designs</title>
 
   <link rel="stylesheet" href="css/styles.css" />
-
-  <!-- Typography: Space Grotesk (headlines) + Inter (body/UI) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet" />
 </head>
 
-<body class="theme-rebellion">
+<body>
 
-  <!-- Header -->
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="logo" href="index.html" aria-label="CrowsCoupe Designs Home">
+  <header>
+    <div class="logo">
+      <a href="index.html" aria-label="CrowsCoupe Designs Home">
         <img src="assets/images/CcdLogo.png" alt="CrowsCoupe Designs Logo" />
       </a>
-
-      <nav class="site-nav" aria-label="Primary Navigation">
-        <ul>
-          <li><a class="nav-link" href="index.html">Home</a></li>
-          <li><a class="nav-link is-active" href="about.html">About</a></li>
-          <li><a class="nav-link" href="services.html">Services</a></li>
-          <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-          <li><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
     </div>
+
+    <nav aria-label="Primary Navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active-link">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
 
-    <!-- Hero -->
-    <section class="hero about-hero">
-      <div class="hero-inner">
+    <section class="hero reveal about-hero">
+      <div class="container">
         <p class="eyebrow">CrowsCoupe Designs</p>
-        <h1 class="hero-title">ABOUT THE REBELLION</h1>
-        <p class="hero-subtitle">
+        <h1>About the Rebellion</h1>
+        <p class="hero-copy">
           We build bold digital identities for creators and companies who refuse to blend in -
-          engineered with precision, fueled by culture, and built to rise above template sameness.
+          engineered with precision, fueled by creativity, and built to rise above template sameness.
         </p>
 
-        <div class="hero-cta">
-          <a href="portfolio.html" class="btn btn-primary">View Work</a>
-          <a href="contact.html" class="btn btn-secondary">Work With Us</a>
+        <div class="hero-buttons">
+          <a href="portfolio.html" class="cta-button">View Work</a>
+          <a href="contact.html" class="secondary-button">Work With Us</a>
         </div>
       </div>
     </section>
 
-    <!-- Our Story -->
-    <section class="section about-story">
-      <div class="section-inner">
-        <h2 class="section-title">Our Story</h2>
-        <p class="section-subtitle">
-          CrowsCoupe started as a passion project - and turned into a mission.
-        </p>
-
-        <div class="manifesto-block" style="text-align:left;">
+    <section class="reveal about-story">
+      <div class="container narrow">
+        <p class="eyebrow">Our Story</p>
+        <h2>Built From Passion Into Purpose</h2>
+        <div class="text-block">
           <p>
-            CrowsCoupe Designs began as a creative outlet after graduating as a software engineer.
-            What started as “just making things” evolved into something bigger: a refusal to accept
-            the copy-paste web as the standard.
+            CrowsCoupe started as a passion project and turned into a mission. After graduating as a
+            software engineer, what began as a creative outlet quickly evolved into something bigger:
+            a refusal to accept the copy-paste web as the standard.
           </p>
-          <p style="margin-top:0.9rem;">
-            We saw the same layouts, the same palettes, the same safe decisions - and we decided to build
-            differently. Today, CrowsCoupe is where bold visuals meet modern development, turning creative energy
-            into brand systems that actually perform.
+
+          <p>
+            We saw the same layouts, the same palettes, and the same safe decisions repeated over and over.
+            So we chose to build differently. Today, CrowsCoupe Designs is where bold visuals meet clean,
+            intentional execution - turning creative energy into brand systems that actually perform.
           </p>
-          <p style="margin-top:0.9rem;">
-            We build for creators, entrepreneurs, and companies who want their brand to feel alive - not generic.
-            Main character energy isn’t a vibe. It’s an intentional identity.
+
+          <p>
+            We build for creators, entrepreneurs, and companies who want their brand to feel alive,
+            memorable, and unmistakably their own.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- Mission -->
-    <section class="section about-mission">
-      <div class="section-inner">
-        <h2 class="section-title">Our Mission</h2>
-        <p class="section-subtitle">
-          Digital Creative Rebellion - built with precision.
+    <section class="reveal about-mission">
+      <div class="container">
+        <p class="eyebrow">Our Mission</p>
+        <h2>Digital Creative Rebellion</h2>
+        <p class="section-copy">
+          We believe design should reward originality, not flatten it. Every project should feel intentional,
+          immersive, and built to command attention.
         </p>
 
         <div class="pillars-grid">
@@ -96,7 +89,7 @@
 
           <article class="pillar-card">
             <h3>Reward Real Creativity</h3>
-            <p>Design should reward originality - not punish it with sameness.</p>
+            <p>Design should reward originality, not punish it with sameness.</p>
           </article>
 
           <article class="pillar-card">
@@ -107,122 +100,120 @@
       </div>
     </section>
 
-    <!-- Why the Crow -->
-    <section class="section about-crow">
-      <div class="section-inner">
-        <h2 class="section-title">Why the Crow</h2>
-        <p class="section-subtitle">
-          The crow has been the symbol since the start - not for aesthetics, but for meaning.
-        </p>
-
-        <div class="manifesto-block" style="text-align:left;">
+    <section class="reveal about-crow">
+      <div class="container narrow">
+        <p class="eyebrow">Why the Crow</p>
+        <h2>The Symbol Behind the Brand</h2>
+        <div class="text-block">
           <p>
-            Crows are intelligent, adaptable, and always aware of what’s happening around them.
-            That’s the energy behind CrowsCoupe Designs:
+            The crow has been part of CrowsCoupe since the start - not just for aesthetics, but for meaning.
+            Crows are intelligent, adaptable, observant, and always aware of the world around them.
+            That is the energy behind what we build.
           </p>
 
-          <ul class="services-list" style="margin-top:1rem;">
-            <li><strong>Observation</strong><span>- We study what makes your audience stop and feel something.</span></li>
-            <li><strong>Strategy</strong><span>- Every decision has intent. Every detail has purpose.</span></li>
-            <li><strong>Presence</strong><span>- We build brands meant to stand apart from the flock.</span></li>
+          <ul class="values-list">
+            <li><strong>Observation</strong> - We study what makes people stop and feel something.</li>
+            <li><strong>Strategy</strong> - Every decision has intent. Every detail has purpose.</li>
+            <li><strong>Presence</strong> - We build brands designed to stand apart from the flock.</li>
           </ul>
 
-          <p style="margin-top:1rem;">
-            The crow isn’t a mascot we “add.” It’s a reminder of what we build: brands that see the game,
-            move with precision, and rise above the noise.
+          <p>
+            The crow is not an ornament we place on top of a brand. It is a reminder of what we’re here to do:
+            build identities that move with precision and rise above the noise.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- Pillars -->
-    <section class="section pillars">
-      <div class="section-inner">
-        <h2 class="section-title">Pillars of the Rebellion</h2>
-        <p class="section-subtitle">The rules we build by - every project, every time.</p>
+    <section class="reveal pillars">
+      <div class="container">
+        <p class="eyebrow">Pillars of the Rebellion</p>
+        <h2>The Rules We Build By</h2>
+        <p class="section-copy">
+          These principles shape every project we touch.
+        </p>
 
-        <div class="pillars-grid">
+        <div class="pillars-grid pillars-grid-large">
           <article class="pillar-card">
             <h3>Precision Over Templates</h3>
-            <p>We engineer systems - we don’t assemble layouts.</p>
+            <p>We engineer systems. We do not assemble generic layouts.</p>
           </article>
 
           <article class="pillar-card">
             <h3>Identity Over Trends</h3>
-            <p>Trends expire. Identity compounds.</p>
+            <p>Trends expire. Identity compounds and builds recognition.</p>
           </article>
 
           <article class="pillar-card">
             <h3>Impact Over Noise</h3>
-            <p>Designed to command attention - not beg for it.</p>
+            <p>Design should command attention - not beg for it.</p>
           </article>
 
           <article class="pillar-card">
             <h3>Immersion Over Flatness</h3>
-            <p>Websites should feel alive, not like recycled slides.</p>
+            <p>Websites should feel alive, not like recycled slideshows.</p>
           </article>
 
           <article class="pillar-card">
             <h3>Rise Above the Flock</h3>
-            <p>Standing apart isn’t reckless. It’s strategic.</p>
+            <p>Standing apart is not reckless. It is strategic.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Team -->
-    <section class="section about-team">
-      <div class="section-inner">
-        <h2 class="section-title">Meet the Team</h2>
-        <p class="section-subtitle">
-          Small team. High standards. Built for quality over churn.
+    <section class="reveal about-team">
+      <div class="container">
+        <p class="eyebrow">Meet the Team</p>
+        <h2>Small Team. High Standards.</h2>
+        <p class="section-copy">
+          Built for quality, intention, and creative execution.
         </p>
 
         <div class="team-grid">
-          <div class="team-member">
+          <article class="team-member">
             <img src="assets/images/IMG_20240611_085435.jpg" alt="Steven Dulworth" />
             <h3>Steven Dulworth</h3>
-            <p>Founder • Lead Designer/Developer</p>
-          </div>
+            <p>Founder • Lead Designer / Developer</p>
+          </article>
 
-          <div class="team-member">
+          <article class="team-member">
             <img src="assets/images/Ealley.jpg" alt="Elizabeth Dulworth" />
             <h3>Elizabeth Dulworth</h3>
             <p>Graphic Design Specialist</p>
-          </div>
+          </article>
 
-          <div class="team-member">
+          <article class="team-member">
             <img src="assets/images/Antone.jpg" alt="Antone Ornelas" />
             <h3>Antone Ornelas</h3>
-            <p>InfoSec Specialist</p>
-          </div>
+            <p>InfoSec Specialist & 3D Print Artist</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- CTA -->
-    <section class="section contact-cta">
-      <div class="section-inner contact-cta-inner">
+    <section class="reveal contact-cta">
+      <div class="container contact-cta-inner">
         <div>
-          <h2 class="section-title">Want a Brand That Doesn’t Blend In?</h2>
-          <p class="section-subtitle">Let’s build something engineered to rise.</p>
+          <p class="eyebrow">Ready to Build?</p>
+          <h2>Want a Brand That Doesn’t Blend In?</h2>
+          <p class="section-copy">
+            Let’s build something engineered to rise.
+          </p>
         </div>
-        <a href="contact.html" class="btn btn-primary">Start a Project</a>
+
+        <a href="contact.html" class="cta-button">Start a Project</a>
       </div>
     </section>
 
   </main>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <p>&copy; 2026 CrowsCoupe Designs</p>
-
-      <div class="socials">
-        <a href="https://cartha91.github.io/CCD_Blogs/" target="_blank" rel="noopener">Animazing Blogs</a>
-        <a href="https://crowscoupegaming.com/" target="_blank" rel="noopener">CrowsCoupe Gaming</a>
-        <a href="https://www.facebook.com/profile.php?id=61575315816905" target="_blank" rel="noopener">Facebook</a>
-      </div>
+  <footer>
+    <p>&copy; 2026 CrowsCoupe Designs</p>
+    <div class="socials">
+      <a href="https://cartha91.github.io/CCD_Blogs/" target="_blank" rel="noopener noreferrer">Animazing Blogs</a>
+      <a href="https://crowscoupegaming.com/" target="_blank" rel="noopener noreferrer">CrowsCoupe Gaming</a>
+      <a href="https://www.facebook.com/profile.php?id=61575315816905" target="_blank" rel="noopener noreferrer">Facebook</a>
     </div>
   </footer>
 

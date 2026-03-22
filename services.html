@@ -3,190 +3,192 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Services | CrowsCoupe Designs — Digital Creative Rebellion</title>
+  <title>Services | CrowsCoupe Designs</title>
 
   <link rel="stylesheet" href="css/styles.css" />
-
-  <!-- Typography: Space Grotesk (headlines) + Inter (body/UI) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet" />
 </head>
 
-<body class="theme-rebellion">
+<body>
 
-  <!-- Header -->
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="logo" href="index.html" aria-label="CrowsCoupe Designs Home">
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <a href="index.html">
         <img src="assets/images/CcdLogo.png" alt="CrowsCoupe Designs Logo" />
       </a>
-
-      <nav class="site-nav" aria-label="Primary Navigation">
-        <ul>
-          <li><a class="nav-link" href="index.html">Home</a></li>
-          <li><a class="nav-link" href="about.html">About</a></li>
-          <li><a class="nav-link is-active" href="services.html">Services</a></li>
-          <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-          <li><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
     </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html" class="active-link">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
 
-    <!-- Hero -->
-    <section class="hero services-hero">
-      <div class="hero-inner">
+    <!-- HERO -->
+    <section class="hero reveal">
+      <div class="container">
         <p class="eyebrow">Digital Creative Rebellion</p>
-        <h1 class="hero-title">SERVICES</h1>
-        <p class="hero-subtitle">
-          We don’t sell generic “design.” We build precision-crafted brand systems -
+        <h1>Services</h1>
+
+        <p class="hero-copy">
+          We don’t sell generic design. We build precision-crafted brand systems
           engineered to stand apart, perform clean, and command attention.
         </p>
 
-        <div class="hero-cta">
-          <a href="contact.html" class="btn btn-primary">Start a Project</a>
-          <a href="portfolio.html" class="btn btn-secondary">View Work</a>
+        <div class="hero-buttons">
+          <a href="contact.html" class="cta-button">Start a Project</a>
+          <a href="portfolio.html" class="secondary-button">View Work</a>
         </div>
       </div>
     </section>
 
-    <!-- Core Services -->
-    <section class="section services-section">
-      <div class="section-inner">
-        <h2 class="section-title">What We Build</h2>
-        <p class="section-subtitle">
-          Choose a core service - or combine them into a full brand system.
-        </p>
+    <!-- SERVICES -->
+    <section class="reveal">
+      <div class="container">
+        <p class="eyebrow">What We Build</p>
+        <h2>Core Services</h2>
 
-        <div class="services-grid">
-          <div class="service-card">
+        <div class="services-grid-preview">
+
+          <div class="service-preview-card">
             <h3>Brand Identity Systems</h3>
             <p>
-              Logo systems, typography + color direction, and a cohesive identity built to scale across
-              platforms. Not a one-off logo - a brand you can grow.
+              Logo systems, typography, and cohesive identities built to scale.
+              Not just a logo - a brand you can grow.
             </p>
           </div>
 
-          <div class="service-card">
-            <h3>Web & UI (Modern + Responsive)</h3>
+          <div class="service-preview-card">
+            <h3>Web & UI Design</h3>
             <p>
-              High-impact websites and UI design that look bold and perform clean. Built for creators,
-              digital products, and companies who refuse template culture.
+              Modern, high-impact websites and interfaces that look bold and
+              perform clean across all devices.
             </p>
           </div>
 
-          <div class="service-card">
+          <div class="service-preview-card">
             <h3>Print & Apparel</h3>
             <p>
-              Merch graphics, print layouts, and production-ready designs for shirts, stickers, cards,
-              posters, and everything physical that carries your identity.
+              Merch graphics, print layouts, and production-ready assets for
+              shirts, cards, posters, and more.
             </p>
           </div>
+
+          <div class="service-preview-card">
+            <h3>Custom 3D Printing</h3>
+            <p>
+              Props, collectibles, tools, and custom prints. If you can imagine it,
+              we can bring it into the real world.
+            </p>
+          </div>
+
         </div>
       </div>
     </section>
 
-    <!-- Deliverables -->
-    <section class="section">
-      <div class="section-inner">
-        <h2 class="section-title">What You Get</h2>
-        <p class="section-subtitle">
-          Clear deliverables. No confusion. Built to be usable immediately.
-        </p>
+    <!-- DELIVERABLES -->
+    <section class="reveal">
+      <div class="container narrow">
+        <p class="eyebrow">What You Get</p>
+        <h2>Clear Deliverables</h2>
 
-        <ul class="services-list">
-          <li><strong>Brand Kit</strong><span>- colors, type, usage rules, and visual direction</span></li>
-          <li><strong>Logo Assets</strong><span>- optimized exports for web + print (when applicable)</span></li>
-          <li><strong>Web Files</strong><span>- responsive site builds or UI layouts based on your project</span></li>
-          <li><strong>Social + Creator Assets</strong><span>- headers, thumbnails, post templates (optional)</span></li>
-          <li><strong>Print-Ready Output</strong><span>- properly sized files for apparel and print runs</span></li>
+        <ul class="values-list">
+          <li><strong>Brand Kit</strong> - Colors, typography, and usage guidelines</li>
+          <li><strong>Logo Assets</strong> - Optimized for web and print</li>
+          <li><strong>Web Files</strong> - Clean builds or UI layouts</li>
+          <li><strong>Creator Assets</strong> - Optional social + content visuals</li>
+          <li><strong>Print Files</strong> - Ready for production</li>
         </ul>
       </div>
     </section>
 
-    <!-- Process -->
-    <section class="section process">
-      <div class="section-inner">
-        <h2 class="section-title">Our Process</h2>
-        <p class="section-subtitle">
-          Rebellion with precision - a clear path from idea to identity.
-        </p>
+    <!-- PROCESS -->
+    <section class="reveal">
+      <div class="container">
+        <p class="eyebrow">Process</p>
+        <h2>How We Work</h2>
 
-        <div class="process-grid">
-          <div class="process-step">
-            <span class="step-number">01</span>
-            <h3>Strategy & Story</h3>
-            <p>We define what your brand stands for, who it’s for, and how it should feel.</p>
+        <div class="pillars-grid">
+
+          <div class="pillar-card">
+            <h3>01 — Strategy</h3>
+            <p>We define your identity, audience, and direction.</p>
           </div>
 
-          <div class="process-step">
-            <span class="step-number">02</span>
-            <h3>Visual System</h3>
-            <p>We build your identity: typography, color, layout language, and core assets.</p>
+          <div class="pillar-card">
+            <h3>02 — Design</h3>
+            <p>We build your full visual system and assets.</p>
           </div>
 
-          <div class="process-step">
-            <span class="step-number">03</span>
-            <h3>Build & Launch</h3>
-            <p>We deliver polished files and/or a clean build - ready to deploy, post, or print.</p>
+          <div class="pillar-card">
+            <h3>03 — Delivery</h3>
+            <p>Clean, usable outputs ready to deploy or print.</p>
           </div>
+
         </div>
       </div>
     </section>
 
-    <!-- Add-ons -->
-    <section class="section">
-      <div class="section-inner">
-        <h2 class="section-title">Add-Ons (Optional, But Powerful)</h2>
-        <p class="section-subtitle">
-          For creators and brands that want the full “main character” rollout.
-        </p>
+    <!-- ADD-ONS -->
+    <section class="reveal">
+      <div class="container">
+        <p class="eyebrow">Add-Ons</p>
+        <h2>Level Up Your Brand</h2>
 
         <div class="pillars-grid">
-          <article class="pillar-card">
-            <h3>Creator Asset Pack</h3>
-            <p>Social templates, banners, thumbnails, and visuals built for consistency.</p>
-          </article>
 
-          <article class="pillar-card">
-            <h3>Landing Page + Conversion Pass</h3>
-            <p>Sharper layout + copy tweaks engineered to turn attention into action.</p>
-          </article>
+          <div class="pillar-card">
+            <h3>Creator Pack</h3>
+            <p>Social templates, banners, and content visuals.</p>
+          </div>
 
-          <article class="pillar-card">
-            <h3>Design System Mini Kit</h3>
-            <p>Reusable UI components and style rules for scaling future pages fast.</p>
-          </article>
+          <div class="pillar-card">
+            <h3>Landing Page Optimization</h3>
+            <p>Refined layouts and conversion-focused tweaks.</p>
+          </div>
+
+          <div class="pillar-card">
+            <h3>Mini Design System</h3>
+            <p>Reusable UI components for scaling fast.</p>
+          </div>
+
         </div>
       </div>
     </section>
 
     <!-- CTA -->
-    <section class="section contact-cta">
-      <div class="section-inner contact-cta-inner">
+    <section class="contact-cta reveal">
+      <div class="container contact-cta-inner">
         <div>
-          <h2 class="section-title">Ready to Break the Template Cycle?</h2>
-          <p class="section-subtitle">Let’s build something engineered to rise above the noise.</p>
+          <p class="eyebrow">Ready to Build?</p>
+          <h2>Break the Template Cycle</h2>
+          <p class="section-copy">
+            Let’s create something engineered to stand out.
+          </p>
         </div>
-        <a href="contact.html" class="btn btn-primary">Let’s Work Together</a>
+
+        <a href="contact.html" class="cta-button">Let’s Work Together</a>
       </div>
     </section>
 
   </main>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <p>&copy; 2026 CrowsCoupe Designs</p>
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 CrowsCoupe Designs</p>
 
-      <div class="socials">
-        <a href="#" aria-label="Twitter">Twitter</a>
-        <a href="#" aria-label="Instagram">Instagram</a>
-        <a href="https://www.facebook.com/profile.php?id=61575315816905" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
-      </div>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">TikTok</a>
     </div>
   </footer>
 

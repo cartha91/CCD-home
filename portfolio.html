@@ -3,159 +3,157 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfolio | CrowsCoupe Designs - Digital Creative Rebellion</title>
+  <title>Portfolio | CrowsCoupe Designs</title>
 
   <link rel="stylesheet" href="css/styles.css" />
-
-  <!-- Typography: Space Grotesk (headlines) + Inter (body/UI) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet" />
 </head>
 
-<body class="theme-rebellion">
+<body>
 
-  <!-- Header -->
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="logo" href="index.html" aria-label="CrowsCoupe Designs Home">
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <a href="index.html">
         <img src="assets/images/CcdLogo.png" alt="CrowsCoupe Designs Logo" />
       </a>
-
-      <nav class="site-nav" aria-label="Primary Navigation">
-        <ul>
-          <li><a class="nav-link" href="index.html">Home</a></li>
-          <li><a class="nav-link" href="about.html">About</a></li>
-          <li><a class="nav-link" href="services.html">Services</a></li>
-          <li><a class="nav-link is-active" href="portfolio.html">Portfolio</a></li>
-          <li><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
     </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html" class="active-link">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
 
-    <!-- Hero -->
-    <section class="hero portfolio-hero">
-      <div class="hero-inner">
-        <p class="eyebrow">Digital Creative Rebellion</p>
-        <h1 class="hero-title">THE WORK</h1>
-        <p class="hero-subtitle">
+    <!-- HERO -->
+    <section class="hero reveal">
+      <div class="container">
+        <p class="eyebrow">Our Work</p>
+        <h1>Portfolio</h1>
+
+        <p class="hero-copy">
           Every project is built to stand apart - not blend into the scroll.
-          Here’s a look at what we craft when precision meets bold identity.
+          Here’s what happens when bold design meets clean execution.
         </p>
 
-        <div class="hero-cta">
-          <a href="contact.html" class="btn btn-primary">Start a Project</a>
-          <a href="services.html" class="btn btn-secondary">Explore Services</a>
+        <div class="hero-buttons">
+          <a href="contact.html" class="cta-button">Start a Project</a>
+          <a href="services.html" class="secondary-button">Explore Services</a>
         </div>
       </div>
     </section>
 
-    <!-- Capabilities Strip -->
-    <section class="section">
-      <div class="section-inner">
-        <h2 class="section-title">What You’ll See Here</h2>
-        <p class="section-subtitle">
-          Brand systems. Web builds. UI. Merch. Projects engineered to rise.
-        </p>
+    <!-- INTRO -->
+    <section class="reveal">
+      <div class="container narrow">
+        <p class="eyebrow">What You’ll See</p>
+        <h2>Built Systems, Not Just Designs</h2>
 
-        <div class="hero-proof" style="margin-top:1.25rem;">
-          <div class="proof-item">
-            <span class="proof-label">Brand</span>
-            <span class="proof-value">Identity Systems</span>
-          </div>
-          <div class="proof-item">
-            <span class="proof-label">Web</span>
-            <span class="proof-value">Modern + Responsive</span>
-          </div>
-          <div class="proof-item">
-            <span class="proof-label">Design</span>
-            <span class="proof-value">Print + Merch</span>
-          </div>
-        </div>
+        <p class="section-copy">
+          Brand identity, web builds, UI systems, and physical design work.
+          Each project is crafted to feel intentional, memorable, and built to perform.
+        </p>
       </div>
     </section>
 
-    <!-- Portfolio Grid -->
-    <section class="section portfolio-section">
-      <div class="section-inner">
-        <h2 class="section-title">Featured Projects</h2>
-        <p class="section-subtitle">
-          Click into projects where available - more case studies are being added as the rebellion grows.
-        </p>
+    <!-- PORTFOLIO GRID -->
+    <section class="reveal">
+      <div class="container">
+        <p class="eyebrow">Featured Work</p>
+        <h2>Recent Projects</h2>
 
         <div class="portfolio-grid">
-          <!-- Project 1 -->
-          <a class="thumb" href="#" aria-label="Modern Web Redesign case study (coming soon)">
-            <img src="assets/images/WebDesign.png" alt="Modern Web Redesign Preview" />
-            <div class="thumb-overlay">
-              <span class="thumb-title">Modern Web Redesign</span>
-              <span class="thumb-tag">Web • UI • Responsive Build</span>
-            </div>
-          </a>
 
-          <!-- Project 2 -->
-          <a class="thumb" href="#" aria-label="Software engineering and app/game design (coming soon)">
-            <img src="assets/images/BrandIdPackage.png" alt="Software Engineering & App/Game Design Preview" />
-            <div class="thumb-overlay">
-              <span class="thumb-title">Software Engineering & App/Game Design</span>
-              <span class="thumb-tag">Development • UI • Systems</span>
+          <!-- Project -->
+          <article class="portfolio-card">
+            <img src="./assets/images/CcgScreen.png" alt="Modern Web Redesign" />
+            <div class="portfolio-card-body">
+              <h3>Modern Web Redesign</h3>
+              <p>Web • UI • Responsive Build</p>
             </div>
-          </a>
+          </article>
 
-          <!-- Project 3 -->
-          <a class="thumb" href="#" aria-label="Merch Design case study (coming soon)">
-            <img src="assets/images/MerchPic.png" alt="Merch Design Preview" />
-            <div class="thumb-overlay">
-              <span class="thumb-title">Merch Design</span>
-              <span class="thumb-tag">Apparel • Print • Production-Ready</span>
+          <!-- Project -->
+          <article class="portfolio-card">
+            <img src="assets/images/BrandIdPackage.png" alt="Software Engineering Project" />
+            <div class="portfolio-card-body">
+              <h3>Software Engineering & App Design</h3>
+              <p>Development • UI • Systems</p>
             </div>
-          </a>
+          </article>
+
+          <!-- Project -->
+          <article class="portfolio-card">
+            <img src="assets/images/MerchPic.png" alt="Merch Design" />
+            <div class="portfolio-card-body">
+              <h3>Merch Design</h3>
+              <p>Apparel • Print • Production</p>
+            </div>
+          </article>
+
+          <!-- NEW: 3D PRINT FEATURE -->
+          <article class="portfolio-card">
+            <img src="assets/images/OpeOpeFruit.jpg" alt="3D Printed Collectible" />
+            <div class="portfolio-card-body">
+              <h3>Custom 3D Printing</h3>
+              <p>Collectibles • Props • Physical Design</p>
+            </div>
+          </article>
+
         </div>
 
-        <div class="portfolio-cta">
-          <a href="contact.html" class="btn btn-primary">Commission a Project</a>
+        <div class="section-link">
+          <a href="contact.html" class="cta-button">Commission a Project</a>
         </div>
       </div>
     </section>
 
-    <!-- Creed (short) -->
-    <section class="section creed">
-      <div class="section-inner">
-        <h2 class="section-title">Built Different</h2>
-        <div class="creed-block">
-          <p><strong>We reject the copy-paste web.</strong></p>
-          <p>Precision over templates. Identity over trends. Impact over noise.</p>
-          <p>In a world of repetition - <strong>distinction wins.</strong></p>
-        </div>
+    <!-- CREED -->
+    <section class="manifesto-preview reveal">
+      <div class="container narrow">
+        <p class="eyebrow">The Creed</p>
+        <h2>Built Different</h2>
+
+        <p class="manifesto-copy">
+          We reject the copy-paste web.  
+          Precision over templates. Identity over trends. Impact over noise.  
+          In a world of repetition - distinction wins.
+        </p>
       </div>
     </section>
 
     <!-- CTA -->
-    <section class="section contact-cta">
-      <div class="section-inner contact-cta-inner">
+    <section class="contact-cta reveal">
+      <div class="container contact-cta-inner">
         <div>
-          <h2 class="section-title">Want Your Brand Featured Here Next?</h2>
-          <p class="section-subtitle">Let’s build something engineered to rise above the noise.</p>
+          <p class="eyebrow">Next Project?</p>
+          <h2>Want Your Brand Featured Here?</h2>
+          <p class="section-copy">
+            Let’s build something engineered to stand out.
+          </p>
         </div>
-        <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+
+        <a href="contact.html" class="cta-button">Get In Touch</a>
       </div>
     </section>
 
   </main>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <p>&copy; 2026 CrowsCoupe Designs</p>
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 CrowsCoupe Designs</p>
 
-      <div class="socials">
-        <a href="#" aria-label="Twitter">Twitter</a>
-        <a href="#" aria-label="Instagram">Instagram</a>
-        <a href="#" aria-label="Facebook">Facebook</a>
-      </div>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">TikTok</a>
     </div>
   </footer>
 
